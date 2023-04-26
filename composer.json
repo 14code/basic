@@ -1,0 +1,28 @@
+{
+  "name": "14code/cubapa",
+  "description": "Commonly Used Basic Patterns",
+  "autoload": {
+    "psr-4": {
+      "I4code\\CuBaPa\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "IAcode\\CuBaPa\\Test\\": "tests"
+    }
+  },
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David Hoppe",
+      "email": "dh@14co.de"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^10.1"
+  },
+  "require": {
+    "symfony/serializer": "^6.2"
+  }
+}
