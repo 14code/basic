@@ -1,14 +1,14 @@
 {
-  "name": "14code/cubapa",
+  "name": "14code/basic",
   "description": "Commonly Used Basic Patterns",
   "autoload": {
     "psr-4": {
-      "I4code\\CuBaPa\\": "src"
+      "I4code\\Basic\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "IAcode\\CuBaPa\\Test\\": "tests"
+      "I4code\\Basic\\Test\\": "tests"
     }
   },
   "minimum-stability": "stable",

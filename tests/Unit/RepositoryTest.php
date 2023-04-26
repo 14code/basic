@@ -1,9 +1,9 @@
 <?php
-namespace I4code\CuBaPa\Test\Unit;
+namespace I4code\Basic\Test\Unit;
 
-use I4code\CuBaPa\Factory;
-use I4code\CuBaPa\Gateway;
-use I4code\CuBaPa\Repository;
+use I4code\Basic\Factory;
+use I4code\Basic\Gateway;
+use I4code\Basic\Repository;
 use PHPUnit\Framework\TestCase;
 
 class RepositoryTest extends TestCase

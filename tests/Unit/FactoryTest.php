@@ -1,7 +1,7 @@
 <?php
-namespace I4code\CuBaPa\Test\Unit;
+namespace I4code\Basic\Test\Unit;
 
-use I4code\CuBaPa\Factory;
+use I4code\Basic\Factory;
 use PHPUnit\Framework\TestCase;
 
 class FactoryTest extends TestCase

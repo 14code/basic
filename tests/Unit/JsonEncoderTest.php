@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace I4code\CuBaPa\Test\Unit;
+namespace I4code\Basic\Test\Unit;
 
-use I4code\CuBaPa\JsonEncoder;
+use I4code\Basic\JsonEncoder;
 use PHPUnit\Framework\TestCase;
 
 class JsonEncoderTest extends TestCase

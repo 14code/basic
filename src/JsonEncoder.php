@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace I4code\CuBaPa;
+namespace I4code\Basic;
 
 use Symfony\Component\Serializer\Encoder\JsonEncoder as SymfonyJsonEncoder;
 

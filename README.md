@@ -1,2 +1,2 @@
-# cubapa
+# Basic
 Commonly Used Basic Patterns
