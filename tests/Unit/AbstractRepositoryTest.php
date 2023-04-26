@@ -3,10 +3,10 @@ namespace I4code\Basic\Test\Unit;
 
 use I4code\Basic\Factory;
 use I4code\Basic\Gateway;
-use I4code\Basic\Repository;
+use I4code\Basic\AbstractRepository;
 use PHPUnit\Framework\TestCase;
 
-class RepositoryTest extends TestCase
+class AbstractRepositoryTest extends TestCase
 {
 
     public function testConstruct()
@@ -14,9 +14,9 @@ class RepositoryTest extends TestCase
         $gatewayMock = $this->createMock(Gateway::class);
         $factoryMock = $this->createMock(Factory::class);
 
-        $repository = new class($gatewayMock, $factoryMock) extends Repository {};
+        $repository = new class($gatewayMock, $factoryMock) extends AbstractRepository {};
 
-        $this->assertInstanceOf(Repository::class, $repository);
+        $this->assertInstanceOf(AbstractRepository::class, $repository);
         return $repository;
     }
 
